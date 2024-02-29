@@ -1,0 +1,70 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}  
+
+body{
+    background-image: url(https://img.freepik.com/fotos-gratis/restaurante-de-cafe-cafeteria-borrao-com-fundo-bokeh_1421-472.jpg?t=st=1709223253~exp=1709226853~hmac=24efb86b7069cd0805f96f0d73690cf16cc4c3fd397c6276e2d701391f19d429&w=740);
+    background-repeat:no-repeat;
+    background-position: absolute;
+    background-size: 100%;
+}
+
+
+.lateral{
+/* padding: -19px;
+margin: -19px; */
+background-color:  #000000CC;
+width: 350px;
+left:-350px;
+height: 45rem;
+position:absolute;
+transition:all .5s; 
+}
+
+input[type="checkbox"]:checked ~ .lateral
+{
+    transform: translateX(350px);
+}
+
+.lateral a{
+    text-decoration: none;
+    display: block;
+    padding: 20px 10px;
+    color: aliceblue;
+    
+}
+
+.lateral a:hover{
+    background-color: rgb(255, 255, 255);
+    color:black;
+    border-radius: 10px;    
+}
+
+.lateral ul
+{
+    list-style: none;
+    position: absolute;
+    top:70px;
+    width: 100%;
+}
+
+.imglateral{
+    width: 40px;
+
+
+
+}
+
+input[type="checkbox"]
+{
+    display: none;
+}
+
+.fundo{
+    padding: 10px;
+    position: absolute;
+    z-index: 1;
+    
+}
+
